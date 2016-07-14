@@ -11,7 +11,7 @@ var taskSchema = new Schema({
   createdAt: Date,
   dueDate: Date,
   completed: Boolean, 
-  groups: [{type: Schema.Types.ObjectId, ref: 'Group'}] 
+  group: [{type: Schema.Types.ObjectId, ref: 'Group'}] 
 });
 
 
