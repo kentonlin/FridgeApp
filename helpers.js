@@ -172,6 +172,7 @@ createGroup: function(groupName, username, res){
 		})
 	}, 
 
+	// delete user from the group 
 	deleteUserFromGroup: function(userID, groupID, res){
 		Model.group.findOne({"_id": groupID}, function(error, group){
 			group.users.remove({"_id": userID}), function(err){
