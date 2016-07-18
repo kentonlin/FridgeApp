@@ -104,7 +104,7 @@ createGroup: function(groupName, username, res){
 },
 
 	// adds User to Group AND adds group to user
-addUserToGroup: function(username, groupId, res, next){
+ addUserToGroup: function(username, groupId, res, next){
 		Model.user.findOne({"username": username}, function(err, user){
 			if(err){
 				res.send("User not found", err)
@@ -123,7 +123,7 @@ addUserToGroup: function(username, groupId, res, next){
 							console.log("about to push user into group!")
 							group.users.push(user); 
 							group.save(function(err){
-								// console.log("Current members of group", group.users);
+								console.log("Current members of group", group.users);
 								user.groups.push(group);
 								user.save(function(err){
 									res.send(group);
