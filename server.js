@@ -181,6 +181,12 @@ app.post('/api/group/getUsers', function(req, res){
 })
 
 
+app.post('/api/group/deleteUser', function(req, res){
+	
+	taskFuncs.deleteUserFromGroup(req.body.id, req.body.groupID, res); 
+})
+
+
 // get tasks for a group
 app.post('/api/group/getTasks', function(req, res) {
 	/* PROPER FORMAT OF REQUEST
