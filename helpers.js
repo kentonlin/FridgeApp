@@ -140,7 +140,7 @@ createGroup: function(groupName, username, res){
 			if(err){
 				console.log("group not found", err);
 			}
-			console.log("Members of group:", group.users);
+			// console.log("Members of group:", group.users);
 			res.send(group.users) //will return an array of user objects in the group
 		})
 	},
@@ -173,17 +173,16 @@ createGroup: function(groupName, username, res){
 	}, 
 
 	// delete user from the group 
-	deleteUserFromGroup: function(userID, groupID, res){
-		console.log("deleteUserFromGroup");
-		Model.group.findOne({"_id": groupID}, function(error, group){
-			group.users.remove({"_id": userID}), function(err){
-					if(err){
-						console.log("there was an error removing the user from group");
-					}
-					console.log("user removed from group"); 
-			}
-		})
-	},
+	// deleteUserFromGroup: function(userID, groupID, res){
+	// 	console.log("deleteUserFromGroup");
+	// 	Model.group.findOne({"_id": groupID}, function(error, group){
+	// 		for(var i = 0; i < group.users.length; i++) {
+	// 			if(group.users[i] === json.stringify(userID)) {
+	// 				console.log(group.users[i])
+	// 			}
+	// 		}
+	// 	})
+	// },
 
 
 
