@@ -123,7 +123,7 @@ createGroup: function(groupName, username, res){
 							console.log("about to push user into group!")
 							group.users.push(user); 
 							group.save(function(err){
-								console.log("Current members of group", group.users);
+								// console.log("Current members of group", group.users);
 								user.groups.push(group);
 								user.save(function(err){
 									res.send(group);
@@ -146,7 +146,7 @@ createGroup: function(groupName, username, res){
 			if(err){
 				console.log("group not found", err);
 			}
-			// console.log("Members of group:", group.users);
+			console.log("Members of group:", group.users);
 			res.send(group.users) //will return an array of user objects in the group
 		})
 	},
