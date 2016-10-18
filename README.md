@@ -1,2 +1,2 @@
 #FridgeApp
-Group Task Manager
+Group Task Manager for families 
