@@ -4,11 +4,15 @@ Fridge is a group task manager specifically designed for families. You can creat
 
 
 ##Features 
-*  Create groups and add members
+* Create groups and add members
 * Display group tasks and assigned tasks
-  * Angular Framework
-  * HTML/CSS 
-  * Bootstrap 
+* Assign tasks to members and group 
 
+##Technologies 
+* Angular
+* MongoDB
+* Node
+* Express
+* Bootstrap
 
 
