@@ -1,21 +1,14 @@
-#Fridge
-Group Task Manager for families 
+#Fridge     <img src="https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/fridge.png" width="48">
+
+Fridge is a group task manager specifically designed for families. You can create groups, add and delete members, assign tasks and mark tasks as completed. 
 
 
 ##Features 
-* Text reminders for daily medications and prescription refills 
-  * Iron.io
-  * Twilio API 
-* Map of nearest pharmacies 
-  * Google Maps API
-* Display user prescriptions and doctors 
-  * React Framework
+*  Create groups and add members
+* Display group tasks and assigned tasks
+  * Angular Framework
   * HTML/CSS 
   * Bootstrap 
-* Specialist recommender given user symptoms
-  * Synaptic.js 
-  * BetterDoctor API 
 
-![alt Fridge](https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/fridge.png "Logo Title Text 1")
 
 
