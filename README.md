@@ -1,4 +1,4 @@
-#FridgeApp
+#Fridge
 Group Task Manager for families 
 
 
