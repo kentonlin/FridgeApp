@@ -16,4 +16,6 @@ Group Task Manager for families
   * Synaptic.js 
   * BetterDoctor API 
 
+![alt Fridge](https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/fridge.png "Logo Title Text 1")
+
 
